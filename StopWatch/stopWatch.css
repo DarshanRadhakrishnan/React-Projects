@@ -1,1 +1,81 @@
+.body{
+  background-image: url("./images/stopwatch.jpg");
+  background-repeat: no-repeat;
+}
+.stopWatch p{
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Roboto Mono', monospace;
+  padding: 5%;
+}
+.buttons  {
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.buttons button{
+  margin: 5%;
+  font-size: 1.5cm;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 0.5cm;
+}
+.start-button{
+  background-color: hsl(120, 80%, 51%);
+  color: white;
+  padding: 3.5%;
+}
+.start-button:hover{
+  background-color: green;
+  cursor: pointer;
+}
+.stop-button{
+  background-color: hsl(16, 97%, 54%);
+  color: white;
+  padding: 3.5%;
+}
+.stop-button:hover{
+  background-color: rgb(162, 11, 11);
+  cursor: pointer;
+}
+.reset-button{
+  background-color: hsl(175, 80%, 51%);
+  color: white;
+  padding: 3.5%;
+}
+.reset-button:hover{
+  background-color: rgb(4, 100, 129);
+  cursor: pointer;
+}
+.lap-button{
+  background-color: hsl(60, 4%, 63%);
+  color: white;
+  padding: 3.5%;
+  
+}
+.lap-button:hover{
+  background-color: rgb(32, 32, 32);
+  cursor: pointer;
+}
 
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Laps{
+  width: 700px;
+  height: 600px;
+  border-color: black;
+  border: 1cm;
+  border-radius: 0.5cm;
+  background-color: rgb(226, 230, 230);
+}
+.Laps li{
+  font-size: 1cm;
+  text-align: center;
+  list-style-type: none;
+  font-weight: bold;
+}
